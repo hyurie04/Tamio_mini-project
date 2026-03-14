@@ -4,10 +4,10 @@ Description
 <p>Welcome to CMSC207 mini-project! This repository contains partial completion of web pages for my personal web profile. </p>
 
 Features/ Pages
-About Me contains a short description about myself including hobbies & interests, fun fact, and contact info.
+<p>About Me contains a short description about myself including hobbies & interests, fun fact, and contact info.</p>
 
 Website:
-To go the web profile, go to: https://hyurie04.github.io/Tamio_mini-project/
+<p>To go the web profile, go to: https://hyurie04.github.io/Tamio_mini-project/</p>
 
 
 Thank you!
