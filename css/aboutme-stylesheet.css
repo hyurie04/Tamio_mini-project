@@ -331,7 +331,8 @@ padding-bottom: 8px;
     top: 64px; 
     background: #ffffff;
     border-bottom: 1px solid #e5e7eb;
-    display: none; 
+    display: none;
+    z-index: 60;
   }
   .main-nav.open{ display: block; }
 
@@ -354,4 +355,12 @@ padding-bottom: 8px;
     background: transparent;
   }
   .sub-menu.open{ display: grid; gap: 2px; }
+
+ /* Also open when aria-expanded=true (extra safety) */
+  .has-sub > .sub-toggle[aria-expanded="true"] + .sub-menu {
+    display: grid;
+    gap: 2px;
+  }
 }
+
+
