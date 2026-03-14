@@ -1,7 +1,7 @@
 <b>the Adrenaline Junkie</b>
 
 Description
-Welcome to CMSC207 mini-project! This repository contains partial completion of web pages for my personal web profile. 
+<p>Welcome to CMSC207 mini-project! This repository contains partial completion of web pages for my personal web profile. </p>
 
 Features/ Pages
 About Me contains a short description about myself including hobbies & interests, fun fact, and contact info.
