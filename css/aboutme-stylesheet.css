@@ -126,7 +126,7 @@ img.medium {
 max-width: 360px;
 width: 50%;
 }
-/* large images are 100% of the container element’s width */
+/* large images are 90% of the container element’s width */
 img.large {
 width: 90%;
 }
