@@ -1,4 +1,5 @@
-the Adrenaline Junkie
+<b>the Adrenaline Junkie</b>
+
 Description
 Welcome to CMSC207 mini-project! This repository contains partial completion of web pages for my personal web profile. 
 
