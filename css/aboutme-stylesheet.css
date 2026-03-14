@@ -12,7 +12,7 @@ background: transparent;
 font-family: 'Georgia', 'Times New Roman', serif;
 margin-left: auto;
 margin-right: auto;
-max-width: 1024px;
+max-width: 1280px;
 min-width: 256px;
 padding: 8px 24px 1px;
 }
@@ -21,7 +21,7 @@ padding: 8px 24px 1px;
 html { 
  margin: 0;
  padding: 0;
- min-height: 100%;  
+ min-height: 100svh;  
  background-image: url('images/cafe.jpg'); 
  background-size: cover;        
  background-repeat: no-repeat;  
