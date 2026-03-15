@@ -346,7 +346,13 @@ padding-bottom: 8px;
     padding: 0;
     background: transparent;
   }
-  .sub-menu.open{ display: grid; gap: 2px; }
+  .sub-menu.open{ 
+    display: block; }
+  .sub-menu li{ 
+    display:block; width:100%; }
+  .sub-toggle{
+    width: 100%
+    text-align: left; }
 
  /* Also open when aria-expanded=true*/
   .has-sub > .sub-toggle[aria-expanded="true"] + .sub-menu {
