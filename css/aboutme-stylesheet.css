@@ -147,7 +147,7 @@ border-radius: 16px;
 }
 
 /* the bits that are specific to a wide viewport (over 56em) */
-@media all and (min-width: 900px) {
+@media all and (min-width: 800px) {
 article {
 float: left;
 width: 80%;
@@ -183,7 +183,7 @@ button.cute-btn:active {
 }
 
 /* Mobile-friendly */
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   button.cute-btn {
     font-size: 30px;
     padding: 10px 16px;
