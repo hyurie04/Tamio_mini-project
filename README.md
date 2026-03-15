@@ -8,7 +8,7 @@ Features/ Pages
 
 Website:
 <p>To go the web profile, go to: https://hyurie04.github.io/Tamio_mini-project/</p>
-<p>About Me Link:https://hyurie04.github.io/Tamio_mini-project/about-me.html</p>
+<p>About Me Page: https://hyurie04.github.io/Tamio_mini-project/about-me.html</p>
 
 
 Thank you!
