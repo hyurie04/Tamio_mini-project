@@ -110,34 +110,15 @@
     });
   }
 
-  // Submenu toggle on mobile; reset on desktop
-  function wireSubmenuToggles(){
-    const isMobile = window.matchMedia('(max-width: 800px)').matches;
-    const buttons = document.querySelectorAll('.has-sub > .sub-toggle');
+  // Submenu toggle
+document.querySelectorAll('.has-sub > .sub-toggle').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const submenu = document.getElementById(btn.getAttribute('aria-controls'));
 
-    buttons.forEach(btn => {
-      const id = btn.getAttribute('aria-controls');
-      const submenu = document.getElementById(id);
-      if (!submenu) return;
-
-      // Remove old listeners by cloning
-      const clone = btn.cloneNode(true);
-      btn.replaceWith(clone);
-
-      if (isMobile) {
-        clone.addEventListener('click', () => {
-          const open = submenu.classList.toggle('open');
-          clone.setAttribute('aria-expanded', String(open));
-        }, { passive: true });
-      } else {
-        clone.setAttribute('aria-expanded', 'false');
-        submenu.classList.remove('open'); // critical reset for desktop
-      }
-    });
-  }
-
-  wireSubmenuToggles();
-  window.addEventListener('resize', wireSubmenuToggles);
+    const isOpen = submenu.classList.toggle('open');
+    btn.setAttribute('aria-expanded', isOpen);
+  });
+});
 
 
   // Fun Fact button
