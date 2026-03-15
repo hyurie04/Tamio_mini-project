@@ -204,19 +204,8 @@ button.cute-btn:active {
   --text: #111111;
 }
 
-/* Optional but recommended to ensure menu layers above content */
+/* Menu above content*/
 header { position: relative; z-index: 50; }
-
-/* If you still have this somewhere:
-   nav ul li { display:inline; ... }
-   Replace it with the scoped rule below so it doesn't affect submenus. */
-nav > ul > li {
-  display: inline-block;   /* allows positioning and better layout */
-  position: relative;      /* anchor for absolute submenu (desktop) */
-  border-right: none;
-  padding-right: 8px;
-  padding-left: 8px;
-}
 
 /* Accessibility skip link */
 .skip-link{
@@ -356,7 +345,7 @@ padding-bottom: 8px;
   }
   .sub-menu.open{ display: grid; gap: 2px; }
 
- /* Also open when aria-expanded=true (extra safety) */
+ /* Also open when aria-expanded=true*/
   .has-sub > .sub-toggle[aria-expanded="true"] + .sub-menu {
     display: grid;
     gap: 2px;
