@@ -189,7 +189,7 @@ button.cute-btn:active {
     padding: 10px 16px;
   }
   html {
-    background-attachment: scroll;
+    background-attachment: fixed;
     min-height: 100svh;
   }  
 }
