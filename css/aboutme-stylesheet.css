@@ -128,12 +128,12 @@ margin-bottom: 20px;
 margin-right: 10px;
 }
 
-/* large images are 100% of the container element’s width */
+/* large images are 90% of the container element’s width */
 img.large {
 width: 90%;
 }
 
-/*side-image set to 300px in height float to the right of text*/
+/*side-image set to 200px in height float to the right of text*/
 img.side-image {
 float: right;
 width: 200px;
